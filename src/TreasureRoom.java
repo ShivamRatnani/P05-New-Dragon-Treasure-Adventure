@@ -18,11 +18,11 @@ public class TreasureRoom extends Room {
         return TREASURE_WARNING;
     }
 
-    /*
+
     public boolean playerCanGrabTreasure(Player p){
-        return false;
+        return p.isTreasureNearby();
     }
-    */
+
 
     public static void setTreasureBackground(PImage image){
         treasureBackground = image;
